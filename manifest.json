@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Resume Builder Plugin",
+  "version": "1.0",
+  "description": "Send webpage content or URL to a webhook and download generated PDF resumes.",
+  "permissions": ["scripting", "activeTab", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png"
+    }
+  }
+}
