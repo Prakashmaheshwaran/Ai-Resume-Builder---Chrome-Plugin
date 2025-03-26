@@ -30,9 +30,9 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   console.log("Message received:", message);
   
   const WEBHOOK_URLS = {
-    SEND_PAGE_DETAILS: "https://auto.dynoxglobal.com/webhook/cf8846b6-21c3hjk4c0f-9276-4dcbf4a5da8f",
-    SEND_URL_ONLY: "https://auto.dynoxglobal.com/webhook/70cf3ef0-5ea6-43d1nmba7a-7da67c886896",
-    SEND_JUST_COVER_LETTER: "https://auto.dynoxglobal.com/webhook/ebae21de-0a31ghn4cbd-9203-5fad92dab826"
+    SEND_PAGE_DETAILS: "https://n8n.dynoxglobal.com/webhook/cf8846b6-21c3hjk4c0f-9276-4dcbf4a5da8f",
+    SEND_URL_ONLY: "https://n8n.dynoxglobal.com/webhook/70cf3ef0-5ea6-43d1nmba7a-7da67c886896",
+    SEND_JUST_COVER_LETTER: "https://n8n.dynoxglobal.com/webhook/ebae21de-0a31ghn4cbd-9203-5fad92dab826"
   };
 
   const FILE_PREFIXES = {
